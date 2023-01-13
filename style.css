@@ -79,6 +79,9 @@ body{
     display: block;
     text-align: center;
     margin-bottom: 1rem;
+    color: #f96816;
+}
+#link a:hover{
     color: aqua;
 }
 .btn-2{
@@ -107,6 +110,9 @@ footer a{
     color: #f96816;
     margin: 0;
 }
+footer a:hover{
+    color: aqua;
+}
 footer p{
     margin-bottom: 0;
 }
@@ -124,14 +130,14 @@ footer p{
 }
 
 #content-text{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 300;
     color: #f96816;
     margin-bottom: 0;
 }
 .btn-3{
     margin-top: 0;
-    width: 80%;
+    width: 20rem;
     line-height: 1.3rem;
     padding: 4px 9px;
     text-align: center;
@@ -157,11 +163,11 @@ footer p{
 }
 
 @media(max-width:756px){
-    #body{
+    body{
         overflow: auto;
     }
-    #right{
-        display: none;
+    #joint{
+        display: flex;
+        flex-direction: column;
     }
-
 }
