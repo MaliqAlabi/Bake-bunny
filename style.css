@@ -123,6 +123,7 @@ footer p{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 100vh;
 }
 #content{
     width: 80%;
