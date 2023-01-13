@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    overflow: visible;
 }
 
 
@@ -38,6 +39,7 @@ body{
 /* Left side */
 #Sign-in{
     width: 80%;
+    margin-top: 5rem;
 }
 #logo{
     margin-bottom: 2rem;
@@ -99,12 +101,13 @@ body{
     text-shadow: 0 0 5px black;
     cursor: pointer;
 }
-#Sign-in footer{
+footer{
     padding-bottom: 0;
     margin-bottom: 0;
     text-align: center;
     color: white;
     text-decoration: none;
+    padding-top: 2rem;
 }
 footer a{
     color: #f96816;
@@ -165,15 +168,21 @@ footer p{
     #right{
         flex: 6;
     }
+    body{
+        overflow: visible;
+    }
 
 }
 
 @media(max-width:756px){
-    body{
-        overflow: auto;
-    }
     #joint{
         display: flex;
         flex-direction: column;
+    }
+    #Sign-in{
+        margin-top: 2rem;
+    }
+    body{
+        overflow: visible;
     }
 }
